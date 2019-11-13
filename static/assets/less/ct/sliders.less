@@ -1,0 +1,187 @@
+.owl-carousel{
+
+  position: relative;
+  .ct-promo, .ct-picture{
+    //This padding in pro is really important for adjusting arrows
+    margin: 0 6px;
+  }
+  .item{
+    background-repeat: no-repeat;
+    .ct-m-backgroundSize(cover);
+  }
+  .owl-item{
+    text-align: center;
+  }
+  &.owl-theme .owl-controls{
+    margin:0;
+    .owl-buttons div{
+      padding: 0;
+      margin:0;
+      .ct-m-rounded(0);
+      .ct-m-opacity(1);
+    }
+  }
+  .owl-prev, .owl-next{
+    position: absolute;
+  }
+
+  &.owl-carousel--arrowsType1{
+    .owl-controls{
+      .owl-buttons{
+        .owl-prev, .owl-next{
+          color: #fff;
+          width: 45px;
+          height: 45px;
+          top:50%;
+          margin-top: -22.5px;
+          background: transparent;
+          &:before{
+            font-family: fontawesome;
+            font-size: 60px;
+            line-height: 39px;
+          }
+        }
+        .owl-prev{
+          left:-50px;
+          &:before{
+            content: "\f104";
+          }
+        }
+        .owl-next{
+          right: -50px;
+          &:before{
+            content: "\f105";
+          }
+        }
+      }
+    }
+  }
+
+  &.owl-carousel--arrowsType2{
+    .owl-controls{
+      .owl-buttons{
+        .owl-prev, .owl-next{
+          .ct-m-transition(all, 0.3s, ease);
+          width: 56px;
+          height: 56px;
+          top:50%;
+          margin-top: -28px;
+          background: #fff;
+          color: #616161;
+          .ct-m-opacity(0.5);
+          .ct-m-rounded(50%);
+          &:before{
+            font-family: fontawesome;
+            font-size: 33px;
+            line-height: 55px;
+          }
+        }
+        .owl-prev{
+          left:20px;
+          &:before{
+            content: "\f104";
+          }
+        }
+        .owl-next{
+          right: 20px;
+          &:before{
+            content: "\f105";
+          }
+        }
+        .owl-prev, .owl-next{
+          &:hover{
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  &.owl-carousel--arrowsType3{
+    .owl-controls{
+      .owl-buttons{
+        .owl-prev, .owl-next{
+          .ct-m-transition(all, 0.3s, ease);
+          width: 36px;
+          height: 36px;
+          top:50%;
+          margin-top: -28px;
+          .ct-m-rounded(6px);
+          &:before{
+            font-family: fontawesome;
+            font-size: 25px;
+            line-height: 35px;
+            color: #fff;
+          }
+        }
+        .owl-prev{
+          left:2px;
+          &:before{
+            content: "\f104";
+          }
+        }
+        .owl-next{
+          right: 2px;
+          &:before{
+            content: "\f105";
+          }
+        }
+      }
+    }
+  }
+  &.linesTop .item{
+    position: relative;
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 19px;
+      background-image: url(assets/../../images/slash-line-big.png);
+    }
+  }
+  &.owl-carousel--arrowsOutside{
+     .owl-controls .owl-buttons .owl-next{
+       right: -90px;
+     }
+    .owl-controls .owl-buttons .owl-prev{
+      left: -90px;
+    }
+  }
+}
+@media(max-width: 1300px){
+  .owl-carousel.owl-carousel--arrowsOutside{
+    .owl-controls .owl-buttons .owl-next{
+      right: -45px;
+    }
+    .owl-controls .owl-buttons .owl-prev{
+      left: -45px;
+    }
+  }
+}
+@media(max-width: @screen-md){
+  .owl-carousel.owl-carousel--arrowsOutside{
+    .owl-controls .owl-buttons .owl-next{
+      right: 0;
+    }
+    .owl-controls .owl-buttons .owl-prev{
+      left: 0;
+    }
+  }
+}
+
+
+@media(max-width: @screen-xs){
+  .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-next{
+    right:0;
+  }
+  .owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-prev{
+    left:0;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,287 @@
+.ct-m-imageCenter {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+a {
+  color: #4974a1;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #3c6085;
+}
+a:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none !important;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background: #4974a1;
+}
+::selection {
+  background: #4974a1;
+}
+ul.ct-socials > li > a:hover {
+  color: #4974a1;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #4974a1 !important;
+}
+.tooltip .tooltip-inner {
+  background-color: #4974a1 !important;
+}
+nav.navbar {
+  background-color: #4974a1;
+}
+nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li:hover {
+  background: #4974a1;
+}
+nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li.dropdown-submenu:hover ul.dropdown-menu > li:hover {
+  background: #4974a1;
+}
+nav.navbar ul.nav.navbar-nav:before {
+  border-color: transparent transparent #4974a1 transparent;
+}
+.navbar-scroll-top.ct-menu {
+  background-color: #4974a1;
+}
+.owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-prev:hover,
+.owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-next:hover {
+  background: #4974a1;
+}
+.owl-carousel .owl-page.active span {
+  background-color: #4974a1;
+}
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-prev {
+  background: #f4b34f;
+}
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-next {
+  background: #f4b34f;
+}
+.btn-link {
+  background-color: #4974a1;
+}
+.btn-primary {
+  background-color: #4974a1;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #3c6085;
+}
+.btn-transparent:hover,
+.btn-transparent:active,
+.btn-transparent:focus {
+  background-color: #4974a1;
+  border-color: #4974a1;
+}
+.btn-secondary {
+  border: 2px solid #f4b34f;
+  background-color: #f4b34f;
+}
+.ct-picture .ct-picture-inner {
+  background-color: #4974a1;
+}
+.mfp-arrow:hover {
+  background-color: #4974a1;
+}
+.ct-contactBox .ct-contactBox-inner i {
+  color: #4974a1;
+}
+.ct-listBox i {
+  color: #4974a1;
+}
+.ct-counterBox .ct-counterBox-number,
+.ct-counterBox .ct-counterBox-number + span {
+  color: #4974a1;
+}
+.ct-stars.ct-stars--overall > li i {
+  color: #4974a1;
+}
+.ct-stars > li i {
+  color: #f4b34f;
+}
+.ct-navbarMobile .navbar-toggle,
+.ct-menuMobile {
+  background: #4974a1;
+}
+.ct-contact .ct-contact-right {
+  background-color: #f4b34f;
+}
+.ct-contact .ct-contact-right:after {
+  border-color: #f4b34f transparent transparent transparent;
+}
+nav.navbar ul.nav.navbar-nav > li > span {
+  background-color: #f4b34f;
+}
+nav.navbar ul.nav.navbar-nav > li > span:after {
+  border-color: #f4b34f transparent transparent transparent;
+}
+.ct-board {
+  background-color: #4974a1;
+}
+.ct-board:after {
+  background: #4974a1;
+}
+.ct-board .ct-board-content .ct-wallBox {
+  background-color: #436b94;
+}
+.ct-board .ct-board-content .ct-wallBox:nth-child(odd) {
+  background-color: #6485a8;
+}
+.ct-board .ct-board-content:after {
+  border-color: transparent #3c6085 transparent transparent;
+}
+.ct-board .ct-board-content:before {
+  border-color: #3c6085 transparent transparent transparent;
+}
+@media (max-width: 992px) {
+  .ct-board .ct-board-content .ct-wallBox {
+    background-color: #6485a8;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(2),
+  .ct-board .ct-board-content .ct-wallBox:nth-child(3) {
+    background-color: #436b94;
+  }
+}
+@media (max-width: 480px) {
+  .ct-board .ct-board-content .ct-wallBox {
+    background-color: #436b94;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(odd) {
+    background-color: #6485a8;
+  }
+}
+.ct-googleMap:before {
+  background-color: #4974a1;
+}
+.ct-googleMap .ct-googleMaps-infoBox .media-heading {
+  color: #4974a1;
+}
+.widget .widget-title i {
+  color: #f4b34f;
+}
+.ct-galleryBox.ct-galleryBox--primary {
+  background-color: #4974a1;
+}
+.ct-galleryBox.ct-galleryBox--primary:hover h4 + span {
+  color: #aac1d9;
+}
+.ct-galleryBox.ct-galleryBox--secondary {
+  background-color: #f4b34f;
+}
+.ct-galleryBox.ct-galleryBox--secondary:hover h4 + span {
+  color: #fdf1df;
+}
+.widgetSidebar .widgetSidebar-title {
+  color: #4974a1;
+}
+.ct-list.ct-list--colour > li a {
+  color: #4974a1;
+}
+.ct-list.ct-list--tagged > li a:hover {
+  color: #4974a1;
+  border-color: #4974a1;
+}
+.ct-list.ct-list--extended > li:before {
+  color: #4974a1;
+}
+.ct-category i {
+  color: #4974a1;
+}
+.media.media-comment h4.media-heading {
+  color: #4974a1;
+}
+.ct-titleDivider {
+  color: #4974a1;
+}
+#calendar .fc-today {
+  background-color: #3c6085;
+}
+#calendar .fc-toolbar .fc-state-hover {
+  background-color: #4974a1 !important;
+}
+#calendar .fc-event {
+  background: #4974a1;
+}
+.ct-dividedSlider .ct-dividedSlider-text {
+  background-color: #4974a1;
+}
+#sync4 .owl-item.synced .media.media-slider:after {
+  border-color: #4974a1 transparent transparent transparent;
+}
+.ct-galleryContainer .ct-galleryContainer-image:after {
+  background-color: #f4b34f;
+}
+.ct-dividedWidget-right .ct-dividedWidget-right-title {
+  color: #4974a1;
+}
+.weatherFeed .weatherItem .weatherRange .weatherRangeHigh {
+  color: #4974a1;
+}
+.weatherFeed .weatherItem .weatherForecastItem .weatherForecastRange .weatherForecastRangeHigh {
+  color: #4974a1;
+}
+.table > thead > tr > th {
+  background-color: #4974a1;
+}
+.ct-u-colorMotive {
+  color: #4974a1;
+}
+.panel-group .panel-heading a:before {
+  background-color: #4974a1;
+}
+.nav-tabs > li > a {
+  background-color: #4974a1;
+}
+.ct-progressBar .progress .progress-bar.progress-bar--motive {
+  background-color: #4974a1;
+}
+.ct-progressBar .progress .progress-bar .ct-progressBar-content {
+  background-color: #4974a1;
+}
+.ct-counter small {
+  color: #4974a1;
+}
+.ct-counterBox--secundary small {
+  color: #4974a1;
+}
+.ct-counter--secundary .ct-counter-icon {
+  background-color: #f4b34f;
+}
+.ct-iconBox .ct-iconBox-icon {
+  background-color: #f4b34f;
+}
+.ct-pricingBox .ct-pricingBox-header {
+  background-color: #4974a1;
+}
+.ct-pricingBox.ct-pricingBox--secondary .ct-pricingBox-header {
+  background-color: #f4b34f;
+}
+.ct-pricingBox .ct-pricingBox-content ul > li.active i {
+  color: #f4b34f;
+}
+.datepicker td.active,
+.datepicker td.active:hover {
+  background-color: #4974a1;
+}
+
+.ct-dividedWidget-right .ct-dividedWidget-right-title {
+  color: #4974a1;
+}
+
+.ct-dividedWidget-right {
+  background-color: #4974a1;
+}

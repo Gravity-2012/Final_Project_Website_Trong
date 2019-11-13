@@ -1,0 +1,288 @@
+.ct-m-imageCenter {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+a {
+  color: #1a1a1a;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #060606;
+}
+a:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none !important;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background: #1a1a1a;
+}
+::selection {
+  background: #1a1a1a;
+}
+ul.ct-socials > li > a:hover {
+  color: #1a1a1a;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #1a1a1a !important;
+}
+.tooltip .tooltip-inner {
+  background-color: #1a1a1a !important;
+}
+nav.navbar {
+  background-color: #1a1a1a;
+}
+nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li:hover {
+  background: #1a1a1a;
+}
+nav.navbar ul.nav.navbar-nav > li.dropdown > a + ul.dropdown-menu > li.dropdown-submenu:hover ul.dropdown-menu > li:hover {
+  background: #1a1a1a;
+}
+nav.navbar ul.nav.navbar-nav:before {
+  border-color: transparent transparent #1a1a1a transparent;
+}
+.navbar-scroll-top.ct-menu {
+  background-color: #1a1a1a;
+}
+.owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-prev:hover,
+.owl-carousel.owl-carousel--arrowsType2 .owl-controls .owl-buttons .owl-next:hover {
+  background: #1a1a1a;
+}
+.owl-carousel .owl-page.active span {
+  background-color: #1a1a1a;
+}
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-prev {
+  background: #323332;
+}
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-next {
+  background: #323332;
+}
+.btn-link {
+  background-color: #1a1a1a;
+}
+.btn-primary {
+  background-color: #1a1a1a;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #060606;
+}
+.btn-transparent:hover,
+.btn-transparent:active,
+.btn-transparent:focus {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.btn-secondary {
+  border: 2px solid #323332;
+  background-color: #323332;
+}
+.ct-picture .ct-picture-inner {
+  background-color: #1a1a1a;
+}
+.mfp-arrow:hover {
+  background-color: #1a1a1a;
+}
+.ct-contactBox .ct-contactBox-inner i {
+  color: #1a1a1a;
+}
+.ct-listBox i {
+  color: #1a1a1a;
+}
+.ct-counterBox .ct-counterBox-number,
+.ct-counterBox .ct-counterBox-number + span {
+  color: #1a1a1a;
+}
+.ct-stars.ct-stars--overall > li i {
+  color: #1a1a1a;
+}
+.ct-stars > li i {
+  color: #323332;
+}
+.ct-navbarMobile .navbar-toggle,
+.ct-menuMobile {
+  background: #1a1a1a;
+}
+.ct-contact .ct-contact-right {
+  background-color: #323332;
+}
+.ct-contact .ct-contact-right:after {
+  border-color: #323332 transparent transparent transparent;
+}
+nav.navbar ul.nav.navbar-nav > li > span {
+  background-color: #323332;
+}
+nav.navbar ul.nav.navbar-nav > li > span:after {
+  border-color: #323332 transparent transparent transparent;
+}
+.ct-board {
+  background-color: #1a1a1a;
+}
+.ct-board:after {
+  background: #1a1a1a;
+}
+.ct-board .ct-board-content .ct-wallBox {
+  background-color: #424242;
+}
+.ct-board .ct-board-content .ct-wallBox:nth-child(odd) {
+  background-color: #515151;
+}
+.ct-board .ct-board-content:after {
+  border-color: transparent #060606 transparent transparent;
+}
+.ct-board .ct-board-content:before {
+  border-color: #060606 transparent transparent transparent;
+}
+@media (max-width: 992px) {
+  .ct-board .ct-board-content .ct-wallBox {
+    background-color: #515151;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(2),
+  .ct-board .ct-board-content .ct-wallBox:nth-child(3) {
+    background-color: #424242;
+  }
+}
+@media (max-width: 480px) {
+  .ct-board .ct-board-content .ct-wallBox {
+    background-color: #424242;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(odd) {
+    background-color: #515151;
+  }
+}
+.ct-googleMap:before {
+  background-color: #1a1a1a;
+}
+.ct-googleMap .ct-googleMaps-infoBox .media-heading {
+  color: #1a1a1a;
+}
+.widget .widget-title i {
+  color: #323332;
+}
+.ct-galleryBox.ct-galleryBox--primary {
+  background-color: #1a1a1a;
+}
+.ct-galleryBox.ct-galleryBox--primary:hover h4 + span {
+  color: #676767;
+}
+.ct-galleryBox.ct-galleryBox--secondary {
+  background-color: #323332;
+}
+.ct-galleryBox.ct-galleryBox--secondary:hover h4 + span {
+  color: #7e807e;
+}
+.widgetSidebar .widgetSidebar-title {
+  color: #1a1a1a;
+}
+.ct-list.ct-list--colour > li a {
+  color: #1a1a1a;
+}
+.ct-list.ct-list--tagged > li a:hover {
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.ct-list.ct-list--extended > li:before {
+  color: #1a1a1a;
+}
+.ct-category i {
+  color: #1a1a1a;
+}
+.media.media-comment h4.media-heading {
+  color: #1a1a1a;
+}
+.ct-titleDivider {
+  color: #1a1a1a;
+}
+#calendar .fc-today {
+  background-color: #060606;
+}
+#calendar .fc-toolbar .fc-state-hover {
+  background-color: #1a1a1a !important;
+}
+#calendar .fc-event {
+  background: #1a1a1a;
+}
+.ct-dividedSlider .ct-dividedSlider-text {
+  background-color: #1a1a1a;
+}
+#sync4 .owl-item.synced .media.media-slider:after {
+  border-color: #1a1a1a transparent transparent transparent;
+}
+.ct-galleryContainer .ct-galleryContainer-image:after {
+  background-color: #323332;
+}
+.ct-dividedWidget-right .ct-dividedWidget-right-title {
+  color: #1a1a1a;
+}
+.weatherFeed .weatherItem .weatherRange .weatherRangeHigh {
+  color: #1a1a1a;
+}
+.weatherFeed .weatherItem .weatherForecastItem .weatherForecastRange .weatherForecastRangeHigh {
+  color: #1a1a1a;
+}
+.table > thead > tr > th {
+  background-color: #1a1a1a;
+}
+.ct-u-colorMotive {
+  color: #1a1a1a;
+}
+.panel-group .panel-heading a:before {
+  background-color: #1a1a1a;
+}
+.nav-tabs > li > a {
+  background-color: #1a1a1a;
+}
+.ct-progressBar .progress .progress-bar.progress-bar--motive {
+  background-color: #1a1a1a;
+}
+.ct-progressBar .progress .progress-bar .ct-progressBar-content {
+  background-color: #1a1a1a;
+}
+.ct-counter small {
+  color: #1a1a1a;
+}
+.ct-counterBox--secundary small {
+  color: #1a1a1a;
+}
+.ct-counter--secundary .ct-counter-icon {
+  background-color: #323332;
+}
+.ct-iconBox .ct-iconBox-icon {
+  background-color: #323332;
+}
+.ct-pricingBox .ct-pricingBox-header {
+  background-color: #1a1a1a;
+}
+.ct-pricingBox.ct-pricingBox--secondary .ct-pricingBox-header {
+  background-color: #323332;
+}
+.ct-pricingBox .ct-pricingBox-content ul > li.active i {
+  color: #323332;
+}
+.datepicker td.active,
+.datepicker td.active:hover {
+  background-color: #1a1a1a;
+}
+
+
+.ct-dividedWidget-right .ct-dividedWidget-right-title {
+  color: #1a1a1a;
+}
+
+.ct-dividedWidget-right {
+  background-color: #1a1a1a;
+}

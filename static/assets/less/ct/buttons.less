@@ -1,0 +1,76 @@
+button{
+  .ct-m-transition(all, 0.3s, ease);
+}
+
+.btn{
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px 38px;
+  font-weight: 700;
+  border: none;
+  .ct-m-rounded(5px);
+}
+
+.btn:active, .btn.active{
+  .ct-m-boxShadow(none);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+  outline: none;
+}
+
+.btn-xs{
+  font-size: 13px;
+  padding: 6px 10px;
+}
+.btn-sm{
+  font-size: 13px;
+  padding: 13px 34px;
+}
+.btn-lg{
+  font-size: 16px;
+  padding: 17px 14px;
+}
+.btn-primary{
+  color: #fff;
+  border: none;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-secondary{
+  color: #fff;
+  &:hover, &:active, &:focus{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+}
+.btn-default{
+  color: #565656;
+  border: none;
+  &:hover, &:active, &:focus{
+    color: #565656;
+  }
+}
+.btn-link{
+  color: #fff;
+  border: 2px solid transparent;
+  &:hover, &:active, &:focus{
+    background-color: transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.btn-transparent{
+  color: #fff;
+  border: 2px solid #fff;;
+  &:hover, &:active, &:focus{
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+

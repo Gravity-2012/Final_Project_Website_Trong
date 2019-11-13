@@ -1,0 +1,481 @@
+@screen-xs:                  480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min:              @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+
+@import "mixins.less";
+
+
+//Country
+//@motive: #00a261;
+//@secondaryMotive: #ffac1b;
+//@motivePostLight: #0ba969;
+//@motivePostLighter: #15b675;
+//Beach
+//@motive: #1dc0c5;
+//@secondaryMotive: #e1a154;
+//@motivePostLight: #2ED2D7;
+//@motivePostLighter: #1BB5BA;
+//Lake
+//@motive: #362a12;
+//@secondaryMotive: #72a243;
+//@motivePostLight:#453618;
+//@motivePostLighter: #594A2C;
+//Mountain
+//@motive: #4974a1;
+//@secondaryMotive: #f4b34f;
+//@motivePostLight: #436B94;
+//@motivePostLighter: #6485A8;
+//City
+@motive: #1a1a1a;
+@secondaryMotive: #323332;
+@motivePostLight: #424242;
+@motivePostLighter: #515151;
+
+@motiveDark: darken(@motive, 8%);
+@motiveLight: lighten(@motive, 30%);
+@secondaryMotiveLight: lighten(@secondaryMotive, 30%);
+//@secondaryMotive: darken(@secondaryMotive, 0);
+
+// MOTIVE
+a {
+  color: @motive;
+  .ct-m-transition(all, 0.3s, ease);
+
+  &:hover{
+    text-decoration: none;
+    color: @motiveDark;
+  }
+  &:focus{
+    text-decoration: none;
+    color: inherit;
+    outline: none !important;
+  }
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: @motive;
+}
+
+::selection {
+  background: @motive;
+}
+
+//  Socials
+ul.ct-socials > li > a{
+  &:hover{
+    color: @motive;
+  }
+
+}
+
+.tooltip{
+  &.top{
+    .tooltip-arrow{
+      border-top-color: @motive !important;
+    }
+  }
+  .tooltip-inner{
+    background-color: @motive !important;
+  }
+}
+
+
+// 3# Menu
+nav.navbar{
+  background-color: @motive;
+  ul.nav.navbar-nav{
+    > li.dropdown > a + ul.dropdown-menu > li{
+      &:hover{
+        background: @motive;
+      }
+      &.dropdown-submenu:hover{
+        ul.dropdown-menu > li{
+          &:hover{
+            background: @motive;
+          }
+        }
+      }
+    }
+    &:before{
+      border-color: transparent transparent @motive transparent;
+    }
+  }
+}
+
+.navbar-scroll-top.ct-menu{
+  background-color: @motive;
+}
+
+
+// 4# Sliders
+.owl-carousel{
+  &.owl-carousel--arrowsType2 .owl-controls .owl-buttons{
+    .owl-prev, .owl-next{
+      &:hover{
+        background: @motive;
+      }
+    }
+  }
+  .owl-page.active span{
+    background-color: @motive;
+  }
+}
+
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-prev{
+  background: @secondaryMotive;
+}
+.owl-carousel.owl-carousel--arrowsType3 .owl-controls .owl-buttons .owl-next{
+  background: @secondaryMotive;
+}
+
+// 5# Buttons
+.btn-link{
+  background-color: @motive;
+}
+.btn-primary{
+  background-color: @motive;
+  &:hover, &:active, &:focus{
+    background-color: @motiveDark;
+  }
+}
+.btn-transparent{
+  &:hover, &:active, &:focus{
+    background-color: @motive;
+    border-color: @motive;
+  }
+}
+.btn-secondary{
+  border: 2px solid @secondaryMotive;
+  background-color: @secondaryMotive;
+}
+// 6# Picture slider (three)
+.ct-picture .ct-picture-inner{
+  background-color: @motive;
+}
+
+// 7# Magnific Arrows
+.mfp-arrow:hover {
+  background-color: @motive;
+}
+
+// 8# Contact Box
+.ct-contactBox .ct-contactBox-inner i{
+  color: @motive;
+}
+
+// 9# List Box
+.ct-listBox{
+  i{
+    color: @motive;
+  }
+}
+
+
+// 11# Counter Box
+.ct-counterBox .ct-counterBox-number, .ct-counterBox .ct-counterBox-number+span{
+  color: @motive;
+}
+
+// 12# Stars Rating
+.ct-stars{
+  &.ct-stars--overall{
+    > li i {
+      color: @motive;
+    }
+  }
+  > li i {
+    color: @secondaryMotive;
+  }
+}
+
+//14# Navbar Menu Toolbar
+.ct-navbarMobile .navbar-toggle, .ct-menuMobile{
+  background: @motive;
+}
+
+
+// SECOND MOTIVE
+
+
+//CT-CONTACT
+.ct-contact .ct-contact-right{
+  background-color: @secondaryMotive;
+  &:after{
+    border-color: @secondaryMotive transparent transparent transparent;
+  }
+}
+
+nav.navbar ul.nav.navbar-nav > li > span{
+  background-color: @secondaryMotive;
+  &:after{
+    border-color: @secondaryMotive transparent transparent transparent;
+  }
+}
+
+//CT board
+.ct-board{
+  background-color: @motive;
+  &:after{
+    background: @motive;
+  }
+  .ct-board-content {
+    .ct-wallBox {
+      background-color: @motivePostLight;
+      &:nth-child(odd) {
+        background-color: @motivePostLighter;
+      }
+    }
+    &:after{
+      border-color: transparent @motiveDark transparent transparent;
+    }
+    &:before{
+      border-color: @motiveDark transparent transparent transparent;
+    }
+  }
+}
+
+@media (max-width: @screen-md){
+  .ct-board .ct-board-content .ct-wallBox{
+    background-color: @motivePostLighter;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(2),.ct-board .ct-board-content .ct-wallBox:nth-child(3){
+    background-color: @motivePostLight;
+  }
+}
+@media (max-width: @screen-xs){
+  .ct-board .ct-board-content .ct-wallBox{
+    background-color: @motivePostLight;
+  }
+  .ct-board .ct-board-content .ct-wallBox:nth-child(odd){
+    background-color: @motivePostLighter;
+  }
+}
+
+//Google maps
+.ct-googleMap{
+  &:before{
+    background-color: @motive;
+  }
+  .ct-googleMaps-infoBox{
+    .media-heading{
+      color: @motive;
+    }
+  }
+}
+
+//widget
+.widget{
+  .widget-title{
+    i{
+      color: @secondaryMotive;
+    }
+  }
+}
+
+//gallery box
+.ct-galleryBox{
+  &.ct-galleryBox--primary{
+    background-color: @motive;
+    &:hover{
+      h4 + span{
+        color: @motiveLight;
+      }
+    }
+  }
+  &.ct-galleryBox--secondary{
+     background-color: @secondaryMotive;
+    &:hover{
+      h4 + span{
+        color: @secondaryMotiveLight;
+      }
+    }
+   }
+}
+
+//widget sidebar
+.widgetSidebar{
+  .widgetSidebar-title{
+    color: @motive;
+  }
+}
+.ct-list.ct-list--colour{
+  > li a{
+    color: @motive;
+  }
+}
+.ct-list.ct-list--tagged{
+  > li a:hover{
+    color: @motive;
+    border-color: @motive;
+  }
+}
+.ct-list.ct-list--extended{
+  >li:before{
+    color: @motive;
+  }
+}
+// ct- category
+
+.ct-category i{
+  color: @motive;
+}
+
+//media
+
+.media{
+  &.media-comment  h4.media-heading{
+    color: @motive;
+  }
+}
+
+.ct-titleDivider{
+  color: @motive;
+}
+
+//calendar
+#calendar {
+  .fc-today {
+    background-color: @motiveDark;
+  }
+  .fc-toolbar{
+    .fc-state-hover{
+       background-color: @motive !important;
+    }
+  }
+  .fc-event{
+    background: @motive;
+  }
+}
+
+//divided sldier
+.ct-dividedSlider .ct-dividedSlider-text{
+  background-color: @motive;
+}
+
+#sync4 {
+  .owl-item.synced {
+    .media.media-slider {
+      &:after {
+        border-color: @motive transparent transparent transparent;
+      }
+    }
+  }
+}
+
+// gallery hover
+.ct-galleryContainer{
+  .ct-galleryContainer-image{
+    &:after{
+      background-color: @secondaryMotive;
+    }
+  }
+}
+
+//divided
+.ct-dividedWidget-right .ct-dividedWidget-right-title{
+  color: @motive;
+}
+
+//weather
+
+.weatherFeed {
+  .weatherItem {
+    .weatherRange {
+      .weatherRangeHigh{
+        color: @motive;
+      }
+    }
+    .weatherForecastItem .weatherForecastRange .weatherForecastRangeHigh{
+      color: @motive;
+    }
+  }
+}
+
+//tables
+.table > thead > tr > th{
+  background-color: @motive;
+}
+
+.ct-u-colorMotive{
+  color: @motive;
+}
+
+//accordiosn
+
+.panel-group .panel-heading a:before{
+  background-color: @motive;
+}
+
+//tabs
+.nav-tabs > li > a {
+  background-color: @motive;
+}
+
+//progress bars
+.ct-progressBar .progress .progress-bar.progress-bar--motive{
+  background-color: @motive;
+}
+
+.ct-progressBar .progress .progress-bar .ct-progressBar-content{
+  background-color: @motive;
+}
+
+//counter
+.ct-counter small{
+  color: @motive;
+}
+.ct-counterBox--secundary small{
+   color: @motive;
+}
+.ct-counter--secundary .ct-counter-icon{
+  background-color: @secondaryMotive;
+}
+
+.ct-iconBox .ct-iconBox-icon{
+  background-color: @secondaryMotive;
+}
+
+//pricing tables
+.ct-pricingBox .ct-pricingBox-header{
+  background-color: @motive;
+}
+.ct-pricingBox.ct-pricingBox--secondary .ct-pricingBox-header{
+  background-color: @secondaryMotive;
+}
+
+.ct-pricingBox .ct-pricingBox-content ul > li.active i{
+  color: @secondaryMotive;
+}
+.datepicker td.active, .datepicker td.active:hover{
+  background-color: @motive;
+}
+
